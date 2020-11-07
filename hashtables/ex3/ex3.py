@@ -15,7 +15,7 @@ def intersection(arrays):
                 integer_dictionary[list_int] = 1
 
     
-    sorted_integer_dictionary_list = list(sorted(integer_dictionary.items(), key=lambda x: x[1], reverse=True))
+    sorted_integer_dictionary_list = sorted(integer_dictionary.items(), key=lambda x: x[1], reverse=True)
 
     for item in sorted_integer_dictionary_list:
 
